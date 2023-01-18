@@ -1,6 +1,6 @@
 public class Converter {
-    double calories == 0,05;
-    double kilometer == 0,0008;
+    double calories = 0,05;
+    double kilometer = 0,0008;
     
     void convert(double stepsPerDay, int quantity) {
         if (quantity == 1) {

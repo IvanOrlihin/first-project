@@ -1,4 +1,6 @@
 public class MonthData {
-	double [] stepPerMonth = new double [12]
+	int[] stepPerMonth = new int[12];
 		
-	
+	void entryDataMonthly(double stepPerDay, int month) {
+		stepPerMonth[month - 1] = stepPerMonth[month - 1] + stepPerDay
+	} 
