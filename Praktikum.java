@@ -15,10 +15,14 @@ public class Main {
 			int rate = scanner.nextInt();
 			}
 		if (command == 2) {
-			System.out.println("Введите текущий месяц и число:");
+			System.out.println("Какой сегодня месяц?");
 			int month = scanner.nextInt();
+			System.out.println("Какое сегодня число?");
 			int day = scanner.nextInt();
-			int rate = scanner.nextInt();
+			System.out.println("Сколько шагов вы прошли за сегодняшний день?");
+			int stepPerDay = scanner.nextInt();
+			stepTracker.inputStat(int mount, int day, int stepPerDay);
+			
 			}
 			
 			
